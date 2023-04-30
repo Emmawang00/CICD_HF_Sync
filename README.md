@@ -9,5 +9,4 @@ app_file: app.py
 pinned: false
 ---
 
-![Sync to Hugging Face hub]
-(https://github.com/Emmawang00/CICD_HF_Sync/actions/workflows/main.yml/badge.svg)
+![Sync to Hugging Face hub](https://github.com/Emmawang00/CICD_HF_Sync/actions/workflows/main.yml/badge.svg)
