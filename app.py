@@ -8,7 +8,7 @@ model = from_pretrained_keras('Emmawang/mobilenet_v2_fake_image_detection')
 
 # Define the Streamlit app
 def main():
-    st.title("Fake Image Detection 📸")
+    st.title("Web App of Fake Image Detection 📸")
     st.write("This is a demo of a fake image detection web app using a MobileNetV2 model trained on the Fake Image Detection dataset.")
     st.write("Upload an image to see if it's fake or not.")
     st.write("")
