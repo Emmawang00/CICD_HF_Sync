@@ -10,7 +10,7 @@ model = from_pretrained_keras('Emmawang/mobilenet_v2_fake_image_detection')
 def main():
     st.title("Web App of Fake Image Detection 📸")
     st.write("This is a demo of a fake image detection web app using a MobileNetV2 model trained on the Fake Image Detection dataset.")
-    st.write("Upload an image to see if it's fake or not.")
+    st.write("Upload an image to see if it's Fake or Real. 🧐")
     st.write("")
 
     uploaded_file = st.file_uploader("Choose an image...", type="png")
